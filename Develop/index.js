@@ -1,4 +1,5 @@
 const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // function to write README file
 function writeToFile(fileName, data) {
@@ -11,8 +12,8 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-    inquirer.prompt(questions).then(() => {
-
+    inquirer.prompt(questions).then((data) => {
+        generateMarkdown(data);
     })
 }
 
