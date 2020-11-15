@@ -1,8 +1,8 @@
-# Awesomest Project
-[![GitHub license](https://img.shields.io/badge/license-MIT-green)](./LICENSE.txt)
+# Even Cooler Project
+[![GitHub license](https://img.shields.io/badge/license-unlicense-blue)](./LICENSE.txt)
 
 ## Description
-None
+Even better than the last
 
 ## Table of Contents
 * [Installation Instructions](<#installation-instructions>)
@@ -18,10 +18,10 @@ None
 Clone and run
 
 ## Usage Information
-Clone and run
+`npm i` and `node index.js`
 
 ## Collaborators
-[https://github.com/404NotFound](https://github.com/404NotFound)
+[https://github.com/MyAmazingGithubUsername](https://github.com/MyAmazingGithubUsername)
 
 ## Contribution Guidelines
 Forking and pull requests
@@ -30,9 +30,9 @@ Forking and pull requests
 None
 
 ## License
-MIT License
+The Unlicense
 
 ## Questions
-View my Github Profile at [https://github.com/404NotFound](https://github.com/404NotFound)
+View my Github Profile at [https://github.com/MyAmazingGithubUsername](https://github.com/MyAmazingGithubUsername)
 
-Contact me at notarealemail@email.com
+Contact me at myawesomeemail@gmail.com
