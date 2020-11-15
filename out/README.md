@@ -1,15 +1,15 @@
 # Awesomest Project
-[![GitHub license](https://img.shields.io/badge/license-AGPL--3.0-blue)](./LICENSE.txt)
+[![GitHub license](https://img.shields.io/badge/license-MIT-green)](./LICENSE.txt)
 
 ## Description
 None
 
 ## Table of Contents
-* [Installation Instructions](<#installation instructions>)
-* [Usage Information](<#usage information>)
+* [Installation Instructions](<#installation-instructions>)
+* [Usage Information](<#usage-information>)
 * [Collaborators](<#collaborators>)
-* [Contribution Guidelines](<#contribution guidelines>)
-* [Test Instructions](<#test instructions>)
+* [Contribution Guidelines](<#contribution-guidelines>)
+* [Test Instructions](<#test-instructions>)
 * [License](<#license>)
 * [Questions](<#questions>)
 
@@ -21,10 +21,7 @@ Clone and run
 Clone and run
 
 ## Collaborators
-[https://github.com/qwer](https://github.com/qwer)  
-[https://github.com/asdf](https://github.com/asdf)  
-[https://github.com/zxcv](https://github.com/zxcv)  
-[https://github.com/qwer](https://github.com/qwer)
+[https://github.com/404NotFound](https://github.com/404NotFound)
 
 ## Contribution Guidelines
 Forking and pull requests
@@ -33,9 +30,9 @@ Forking and pull requests
 None
 
 ## License
-GNU Affero General Public License v3.0
+MIT License
 
 ## Questions
-View my Github Profile at [https://github.com/qwer](https://github.com/qwer)
+View my Github Profile at [https://github.com/404NotFound](https://github.com/404NotFound)
 
 Contact me at notarealemail@email.com

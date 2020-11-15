@@ -11,11 +11,11 @@ ${licenses[license].badge}
 ${description}
 
 ## Table of Contents
-* [Installation Instructions](<#installation instructions>)
-* [Usage Information](<#usage information>)
+* [Installation Instructions](<#installation-instructions>)
+* [Usage Information](<#usage-information>)
 * [Collaborators](<#collaborators>)
-* [Contribution Guidelines](<#contribution guidelines>)
-* [Test Instructions](<#test instructions>)
+* [Contribution Guidelines](<#contribution-guidelines>)
+* [Test Instructions](<#test-instructions>)
 * [License](<#license>)
 * [Questions](<#questions>)
 
