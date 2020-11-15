@@ -1,24 +1,6 @@
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
-
-// function to write README file
-function writeToFile(fileName, data) {
-    try {
-        fs.writeFileSync(filename, data, 'UTF8');
-    } catch(e) {
-        console.log(e);
-    }
-}
-
-// function to initialize program
-function init() {
-    inquirer.prompt(questions).then((data) => {
-        generateMarkdown(data);
-    })
-}
-
-// function call to initialize program
-init();
+const fs = require('fs');
 
 // array of questions for user
 const questions = [
@@ -61,7 +43,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'What License is your project under',
-        choices: ['Email', 'Text', 'Phone']
+        choices: ['MIT', 'Apache', 'GPL']
     },
     {
         type: 'input',
@@ -74,3 +56,22 @@ const questions = [
         message: 'Enter the email you want questions to go to:'
     },
 ];
+
+// function to write README file
+function writeToFile(fileName, data) {
+    try {
+        fs.writeFileSync(fileName, data, 'UTF8');
+    } catch(e) {
+        console.log(e);
+    }
+}
+
+// function to initialize program
+function init() {
+    inquirer.prompt(questions).then((data) => {
+        writeToFile('README.md', generateMarkdown(data));
+    })
+}
+
+// function call to initialize program
+init();

@@ -1,11 +1,12 @@
 // function to generate markdown for README
 function generateMarkdown({title, description, installation, usage, collaborators, contributing, tests, license, username, email}) {
   return `# ${title}
+${licenses[license].badge}
 
-##Description
+## Description
 ${description}
 
-##Table of Contents
+## Table of Contents
 * [Installation Instructions](<#installation instructions>)
 * [Usage Information](<#usage information>)
 * [Collaborators](<#collaborators>)
@@ -15,28 +16,40 @@ ${description}
 * [Questions](<#questions>)
 
 
-##Installation Instructions
+## Installation Instructions
 ${installation}
 
-##Usage Information
+## Usage Information
 ${usage}
 
-##Collaborators
+## Collaborators
 ${collaborators}
 
-##Contribution Guidelines
+## Contribution Guidelines
 ${contributing}
 
-##Test Instructions
+## Test Instructions
 ${tests}
 
-##License
+## License
 ${license}
 
-##Questions
+## Questions
 View my Github Profile at [https://github.com/${username}](https://github.com/${username})
-Contact me at ${email}
+\nContact me at ${email}
 `;
+}
+
+const licenses = {
+  MIT: {
+    badge: '[![GitHub license](https://img.shields.io/badge/license-MIT-green)](./license.txt)',
+  },
+  Apache: {
+    badge: '[![GitHub license](https://img.shields.io/badge/license-Apache-blue)](./license.txt)',
+  },
+  GPL: {
+    badge: '[![GitHub license](https://img.shields.io/badge/license-GPL-blue)](./license.txt)',
+  }
 }
 
 module.exports = generateMarkdown;
