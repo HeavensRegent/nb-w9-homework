@@ -13,6 +13,8 @@ This assists with creating the boilerplate and some basic content in the format 
 * [License](<#license>)
 * [Questions](<#questions>)
 
+## Walkthrough Video
+https://drive.google.com/file/d/1DrswM0Kt0zK3DIN6R3zm7QZ7L2hqGInR/view
 
 ## Installation Instructions
 Clone the repository to your computer, Make sure you have node installed
